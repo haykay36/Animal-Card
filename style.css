@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  /* height: 100vh; */
+  margin: 0 auto 0 auto;
+  border: none;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 0 auto;
+  gap: 20px;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: fit-content;
+}
+.first {
+  display: flex;
+  flex-direction: column;
+  align-items: normal;
+  justify-content: center;
+  background-color: blueviolet;
+  width: 50%;
+  height: 25%;
+  padding: 5px;
+  border: none;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+.second {
+  display: flex;
+  flex-direction: column;
+  align-items: normal;
+  justify-content: space-around;
+  background-color: cadetblue;
+  width: 50%;
+  border: none;
+  border-radius: 0.9rem;
+  padding: 1.25rem;
+  gap: 1.25rem;
+}
+.right {
+  width: 40%;
+  border: none;
+  border-radius: 50%;
+}
+.left {
+  width: 100%;
+  border: none;
+  /* border-radius: 50%; */
+}
+h2,
+h3,
+p {
+  color: ghostwhite;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+p {
+  justify-content: space-between;
+}
+span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.3rem;
+}
+@media (max-width: 770px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0, auto;
+    /* height: 86%; */
+    gap: 1px;
+  }
+  .first {
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    justify-content: center;
+    background-color: blueviolet;
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 5px;
+  }
+  .second {
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    justify-content: space-around;
+    background-color: cadetblue;
+    width: 50%;
+    border: none;
+    border-radius: 0.9rem;
+    padding: 1.25rem;
+    gap: 1.25rem;
+    margin-top: 0px;
+  }
+  .right {
+    width: 30%;
+    border: none;
+    border-radius: 50%;
+  }
+  .left {
+    width: 50%;
+    border: none;
+    /* border-radius: 50%; */
+  }
+  h2,
+  h3,
+  p {
+    font-size: medium;
+  }
+}
