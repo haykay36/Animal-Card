@@ -68,10 +68,11 @@ h3,
 p {
   color: ghostwhite;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: medium;
 }
-p {
+/* p {
   justify-content: space-between;
-}
+} */
 span {
   display: flex;
   align-items: center;
@@ -119,13 +120,13 @@ span {
     border-radius: 50%;
   }
   .left {
-    width: 50%;
+    width: 100%;
     border: none;
     /* border-radius: 50%; */
   }
   h2,
   h3,
   p {
-    font-size: medium;
+    font-size: small;
   }
 }
